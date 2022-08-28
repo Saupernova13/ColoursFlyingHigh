@@ -1,0 +1,39 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Form1'
+  ClientHeight = 597
+  ClientWidth = 747
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  Visible = True
+  OnCreate = FormCreate
+  PixelsPerInch = 120
+  TextHeight = 16
+  object Panel1: TPanel
+    Left = -88
+    Top = -56
+    Width = 873
+    Height = 665
+    Color = 3052128
+    ParentBackground = False
+    TabOrder = 0
+    OnClick = Panel1Click
+    object Button1: TButton
+      Left = 416
+      Top = 336
+      Width = 75
+      Height = 25
+      Caption = 'CHANGE'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+  end
+end
